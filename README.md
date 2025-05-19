@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Smart Voice Cooking Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A voice-controlled cooking assistant that helps you find recipes based on ingredients you have and guides you through the cooking process step-by-step.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Voice Recognition**: Control the app hands-free using voice commands
+- **Ingredient-Based Recipe Search**: Find recipes based on ingredients you have
+- **Step-by-Step Guidance**: Get guided through each cooking step
+- **Built-in Timers**: Automatic timers for cooking steps
+- **Multi-Language Support**: Use the app in different languages
+- **Text Input**: Type commands and ingredients if you prefer
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React with TypeScript
+- **Styling**: Tailwind CSS
+- **Voice Input**: Web Speech API (SpeechRecognition)
+- **Voice Output**: Web Speech API (SpeechSynthesis)
+- **Recipe Data**: Spoonacular API
+- **Hosting**: Vercel (recommended)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Clone this repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Get a free Spoonacular API key from [https://spoonacular.com/food-api](https://spoonacular.com/food-api)
+4. Start the development server:
+   ```
+   npm start
+   ```
+5. Enter your API key when prompted
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Voice Commands
 
-### `npm run build`
+- "Add ingredient [ingredient name]" - Add an ingredient to your list
+- "Find recipes" - Search for recipes using your ingredients
+- "Next step" - Move to the next cooking step
+- "Previous step" - Go back to the previous step
+- "Repeat" - Repeat the current step
+- "Pause timer" - Pause the active timer
+- "Resume timer" - Resume the paused timer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Browser Compatibility
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This app works best in Chrome and Edge browsers which have the best support for the Web Speech API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
+# ai-agent-for-voice-cooking-assistant
